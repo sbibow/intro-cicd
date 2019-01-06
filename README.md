@@ -28,6 +28,6 @@ In practice there is no distinction between the last two.
 - [x] Push our code to GitHub
 - [x] Set up TravisCI to run automated tests (CI)
   - [x] Difference travis-ci.com travis-ci.org
-- [x] Automatically deploy to heroku (CD)
+- [x] Automatically deploy to now (CD)
   - [x] Travis CLI
-  - [x] Heroku CLI
+  - [x] Now CLI
