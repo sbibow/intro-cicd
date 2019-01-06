@@ -1,6 +1,5 @@
 {
-  "version": 2,
+  "version": 1,
   "name": "intro-cicd",
   "public": true,
-  "builds": [{ "src": "*.js", "use": "@now/node" }]
 }
