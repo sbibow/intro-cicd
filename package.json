@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "jest",
-    "deploy": "now . --static --no-clipboard --token=$NOW_TOKEN --public"
+    "deploy": "now . --token=$NOW_TOKEN"
   },
   "author": "Semjon Bibow",
   "license": "ISC",
