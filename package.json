@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "jest",
-    "deploy": "now alias --token=$NOW_TOKEN $(now --token=$NOW_TOKEN) intro-cicd.now.sh"
+    "deploy": "now --token=$NOW_TOKEN"
   },
   "author": "Semjon Bibow",
   "license": "ISC",
