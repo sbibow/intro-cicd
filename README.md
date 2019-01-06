@@ -26,8 +26,8 @@ In practice there is no distinction between the last two.
   - [x] Refactor for testing
   - [x] npm install jest supertest --save-dev
 - [x] Push our code to GitHub
-- [ ] Set up TravisCI to run automated tests (CI)
-  - [ ] Difference travis-ci.com travis-ci.org
+- [x] Set up TravisCI to run automated tests (CI)
+  - [x] Difference travis-ci.com travis-ci.org
 - [ ] Automatically deploy to heroku (CD)
   - [ ] Travis CLI
   - [ ] Heroku CLI

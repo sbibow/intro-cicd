@@ -1,4 +1,8 @@
 language: node_js
 node_js:
-  - "stable"
-  - "current"
+- stable
+- current
+deploy:
+  provider: heroku
+  api_key:
+    secure: hItIgFM+FW1bWFoW5gYdsRM1jJQZuLUPzPkOfnc3pkRrAHGA0VfGmlP9IAxFL6lo83fzUOB9R8++xTLoJg0PrTn4uTRqKrh2APDtTw12ooc16SbDhpXjoxEbFttkrm22wevrLsu7LSB88jzTRzmUBelZW72A1LIhWRZ3TlLmPfUZjYvCriiNcYC4N/XP4Iw1yKG2GjmRq90POXv5eqqUw73oui71B/tRtTa3X4B4JlC70HOoRz/QGht0VU4z4klMtirO6synj93NjNBoeLYVTLHZclWcVllQMZEK7g1NnGULaGiHSOIYX8Anls2a2CNujb56UuwefJnbF+nX+Q5vfJmV7poW1SCr5E0OccNhpgBkOn6JNaM9EbYB07tDh0p7hgYZPipmLdXWx5mARDcSN7chlVc4w1Y8z8fVmz71gzMPnHhdB4FC2LUn+cnnKH5juS1lv5lXPs4yGwreOg/LeaCYydPcdP2I6tyywYW92tYlmKl1VRkQdMt7yTJPm4+RaHLfagdCfNWPIFBMsvNBMyuHFDtA1y/jRx3UbI++Ka3gJ7gctOCdSLjqoC6Bzl3elwKyez1rG7ByQv8jidQ5t+zX/gk4m3svN+VVZ3PLMWZW45iEbm7R2Du+vOFQBfiZbdR2xZWFdSaNFZ5tl3QYfpxKK6crLnsxlAvIrXSRUBA=
