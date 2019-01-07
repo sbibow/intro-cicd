@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/sbibow/intro-cicd.svg?branch=master)](https://travis-ci.com/sbibow/intro-cicd)
 # Introduction to CI/CD
 
 From code to app
