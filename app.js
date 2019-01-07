@@ -2,7 +2,8 @@ const express = require("express")
 const app = express()
 
 app.get("/", (req, res) => {
-  res.json({hello: "world"})
+  const sum = parseInt(req.query.a) + parseInt(req.query.b)
+  res.json({sum})
 })
 
 module.exports = app
