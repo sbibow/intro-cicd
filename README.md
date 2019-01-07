@@ -31,3 +31,14 @@ In practice there is no distinction between the last two.
 - [x] Automatically deploy to now (CD)
   - [x] Travis CLI
   - [x] Now CLI
+
+## Important links
+
+- [Git](https://git-scm.com/)
+- [NodeJS](https://nodejs.org/en/)
+- [TravisCI](https://travis-ci.com/)
+- [Announcing support for open source projects on travis-ci.com](https://blog.travis-ci.com/2018-05-02-open-source-projects-on-travis-ci-com-with-github-apps)
+- [Now.sh](https://zeit.co/now)
+- [ExpressJS](https://expressjs.com/)
+- [Jest](https://jestjs.io/)
+- [supertest](https://github.com/visionmedia/supertest)
