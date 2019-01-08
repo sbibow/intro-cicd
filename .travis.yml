@@ -1,13 +1,16 @@
 language: node_js
 node_js:
 - stable
+stages:
+  - test
+  - name: deploy
+    if: branch = master
 jobs:
   include:
     - stage: test
       script: npm run lint
     - script: npm run test
     - stage: deploy
-      if: branch = master
       script: skip
       deploy:
         provider: script
