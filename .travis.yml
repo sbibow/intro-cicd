@@ -7,6 +7,8 @@ jobs:
       script: npm run lint
     - script: npm run test
     - stage: deploy
+      if: branch = master
+      script: skip
       deploy:
         provider: script
         script: npm run deploy
