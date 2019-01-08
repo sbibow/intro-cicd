@@ -1,9 +1,15 @@
 language: node_js
 node_js:
 - stable
-deploy:
-  provider: script
-  script: npm run deploy
-  skip_cleanup: true
-  on:
-    branch: master
+jobs:
+  include:
+    - stage: test
+      script: npm run lint
+    - script: npm run test
+    - stage: deploy
+      deploy:
+        provider: script
+        script: npm run deploy
+        skip_cleanup: true
+        on:
+          branch: master
