@@ -1,6 +1,18 @@
 {
-  "version": 1,
   "name": "intro-cicd",
+  "version": 2,
   "public": true,
-  "alias": "intro-cicd.now.sh"
+  "alias": [
+    "testing.now.sergivb01.me"
+  ],
+  "env": {
+    "MONGO_URI": "@mongo_uri"
+  },
+  "regions": [
+    "bru"
+  ],
+  "builds": [{
+    "src": "index.js",
+    "use": "@now/node-server"
+  }]
 }
