@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   const sum = parseInt(req.query.a, 10) + parseInt(req.query.b, 10);
   res.json({
     sum,
-    MONGO_URI
+    MONGO_URI,
   });
 });
 
